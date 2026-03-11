@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kuis Pembelajaran</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- ================= HALAMAN JUDUL ================= -->
+
+<div id="halamanAwal">
+
+<h1>Challenge Kebugaran</h1>
+
+<button onclick="lanjut()">Lanjut</button>
+
+</div>
+
+
+
+<!-- ================= INPUT NAMA ================= -->
+
+<div id="inputNama" class="hidden">
+
+<h2>Masukkan Nama</h2>
+
+<input type="text" id="namaPlayer">
+
+<br><br>
+
+<button onclick="simpanNama()">Lanjut</button>
+
+</div>
+
+
+
+<!-- ================= MENU UTAMA ================= -->
+
+<div id="menu" class="hidden">
+
+<h2 id="salam"></h2>
+
+<button onclick="bukaPapan('cara')">Cara Bermain</button>
+
+<button onclick="bukaPapan('tujuan')">Tujuan Pembelajaran</button>
+
+<button onclick="bukaPapan('materi')">Materi</button>
+
+<br><br>
+
+<button onclick="mulaiGame()">Bermain Sekarang</button>
+
+</div>
+
+
+
+<!-- ================= PAPAN POPUP ================= -->
+
+<div id="papanInfo" class="hidden">
+
+<div class="papan">
+
+<h2 id="judulPapan"></h2>
+
+<p id="isiPapan"></p>
+
+<button onclick="tutupPapan()">Back</button>
+
+</div>
+
+</div>
+
+
+
+<!-- ================= HALAMAN QUIZ ================= -->
+
+<div id="quiz" class="hidden">
+
+<!-- SKOR POJOK KANAN -->
+<div id="scoreBox">
+Skor : <span id="score">0</span>
+</div>
+
+<h2 id="soal"></h2>
+
+<div id="pilihan"></div>
+
+<br>
+
+<p>Timer : <span id="timer">10</span></p>
+
+</div>
+
+
+
+<!-- ================= HALAMAN HASIL ================= -->
+
+<div id="hasil" class="hidden">
+
+<h2 id="hasilText"></h2>
+
+<br>
+
+<button onclick="kembaliMenu()">Kembali ke Menu</button>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
