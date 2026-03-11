@@ -176,3 +176,21 @@ font-size:32px;
 font-weight:bold;
 color:white;
 }
+@media (max-width:600px){
+
+body{
+font-size:18px;
+padding:20px;
+}
+
+button{
+font-size:18px;
+padding:12px;
+width:90%;
+}
+
+#scoreBox{
+font-size:18px;
+}
+
+}
