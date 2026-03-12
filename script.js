@@ -100,7 +100,10 @@ if(menu=="materi"){
 judul="Materi"
 isi="Materi Pendidikan Jasmani kelas 11 semester 2 tentang Kebugaran Jasmani."
 }
-
+if(menu=="profile"){
+judul="Profile Developer"
+isi="Game Challenge Kebugaran dibuat oleh siswa SMKN 11 Semarang sebagai media pembelajaran interaktif untuk materi Kebugaran Jasmani."
+}
 document.getElementById("judulPapan").innerText = judul
 document.getElementById("isiPapan").innerText = isi
 
@@ -281,5 +284,6 @@ document.getElementById("score").innerText = 0
 
 document.getElementById("hasil").classList.add("hidden")
 document.getElementById("menu").classList.remove("hidden")
+
 
 }
