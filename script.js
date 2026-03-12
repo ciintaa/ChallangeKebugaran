@@ -102,7 +102,7 @@ isi="Materi Pendidikan Jasmani kelas 11 semester 2 tentang Kebugaran Jasmani."
 }
 if(menu=="profile"){
 judul="Profile Developer"
-isi="Game Challenge Kebugaran dibuat oleh siswa SMKN 11 Semarang sebagai media pembelajaran interaktif untuk materi Kebugaran Jasmani."
+isi="Game Challenge Kebugaran dibuat oleh Anggun Cintanyya XI Gim 2, siswi SMKN 11 Semarang dan di bimbing oleh guru olah raga Pak Rio. Media ini untuk pembelajaran interaktif untuk materi Kebugaran Jasmani."
 }
 document.getElementById("judulPapan").innerText = judul
 document.getElementById("isiPapan").innerText = isi
@@ -287,3 +287,4 @@ document.getElementById("menu").classList.remove("hidden")
 
 
 }
+
